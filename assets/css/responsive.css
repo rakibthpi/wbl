@@ -1,0 +1,311 @@
+:root {
+  --mainColor: #04a58c;
+  --whiteColor: #ffffff;
+  --blackColor: #2c2c2c;
+  --bgColor: #005649;
+}
+@media all and (min-width: 1320px) {
+}
+
+@media all and (max-width: 1639.99px) and (min-width: 1199.99px) {
+}
+@media all and (max-width: 1199.99px) {
+  h1 {
+    font-size: 69px;
+  }
+  .header_main {
+    top: 43px;
+  }
+  .bannerMain {
+    padding-top: 225px;
+  }
+}
+@media all and (max-width: 991.99px) {
+  .header_main {
+    padding: 24px 0px 23px 0;
+  }
+  .timeoutMain {
+    padding: 50px 0 80px 0;
+  }
+  .logo a img {
+    width: 175px;
+  }
+  .menu {
+    position: fixed;
+    right: -300px;
+    top: 128px;
+    height: 100%;
+    background: var(--whiteColor);
+    padding: 20px 0px;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    z-index: 999;
+  }
+  .mobileLoginActive {
+    right: 0;
+  }
+  .menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .logo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .menu ul li {
+    width: 100%;
+  }
+  .menu > ul > li > span {
+    padding: 12px 40px;
+    width: 100%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .menu ul li span:hover a,
+  .menu ul li span:hover {
+    background: var(--whiteColor);
+    color: var(--mainColor);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .menu > ul > li > a {
+    display: block;
+    width: 100%;
+    padding: 12px 40px;
+    width: 290px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .menu > ul > li > a:hover {
+    background: var(--whiteColor);
+    color: var(--mainColor);
+  }
+  .menuBtnMobileArea a {
+    padding: 10px 28px;
+    font-size: 16px;
+  }
+  .humberMenu {
+    display: block;
+  }
+  .menuBtnMobileArea {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+  }
+  .menu ul li ul {
+    position: inherit;
+    width: 100%;
+  }
+  /* mobile Menu area end  */
+  .header_main {
+    top: -14px;
+  }
+  .bannerMain {
+    padding-top: 190px;
+  }
+  .footerText {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+  .footerMiddle,
+  .footerLogo {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+  .officeSingleItem {
+    padding: 40px 15px;
+  }
+  .officeSingleItemTop span {
+    margin-bottom: 22px;
+  }
+  .officeSingleItemBottom ul li a {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .officeSingleItemTop h4 {
+    font-size: 18px;
+  }
+  .shapArea {
+    padding-bottom: 150px;
+  }
+  .servicesItemArea {
+    padding: 35px 30px;
+  }
+}
+
+@media all and (max-width: 767.99px) {
+  .logo a img {
+    width: 126px;
+  }
+  .menu {
+    top: 75px;
+  }
+  .menu > ul > li > a {
+    padding: 8px 25px;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 52px;
+  }
+  .bannerMain {
+    padding-top: 135px;
+  }
+  .bannerText p {
+    font-size: 22px;
+    padding: 32px 0;
+  }
+  .sliderText h3 {
+    font-size: 20px;
+    padding: 15px 0 10px 0;
+  }
+  .sliderText p {
+    font-size: 14px;
+  }
+  .sliderTextArea {
+    padding: 45px 15px;
+    border-radius: 64px;
+  }
+  .servicestimeText p {
+    font-size: 14px;
+    padding-top: 5px;
+    width: 100%;
+  }
+  .servicestimeText h2 {
+    font-size: 24px;
+    width: 100%;
+  }
+  .shapArea {
+    padding-bottom: 122px;
+  }
+  .singleImgText {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+  .mainServicesItemArea {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .mainServicesItemArea2 {
+    margin-top: 37px;
+  }
+  .head p {
+    font-size: 14px;
+  }
+  .officeMainText {
+    padding-top: 33px;
+  }
+  .officeMain {
+    padding-top: 56px;
+  }
+  .officeSingleItemMiddle {
+    padding: 25px 0 30px 0;
+  }
+  .officeSingleItem > a {
+    margin-top: 30px;
+  }
+  .officeSingleItem {
+    padding: 25px 15px;
+  }
+  .footerLogoMain::after {
+    width: 100%;
+  }
+  .head h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  .servicesItemArearight p,
+  .servicesItemArea p {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .servicesItemArearight h3,
+  .servicesItemArea h3 {
+    font-size: 22px;
+  }
+}
+
+@media all and (max-width: 575.99px) {
+  .servicesItemArea {
+    padding: 25px 15px;
+  }
+  .servicesItemArearight h3,
+  .servicesItemArea h3 {
+    font-size: 20px;
+    padding: 18px 0 14px 0;
+  }
+  .officeSingleItemTop p {
+    font-size: 14px;
+  }
+  .shapArea {
+    padding-bottom: 67px;
+  }
+  .servicestimeText h2 {
+    font-size: 18px;
+  }
+  .heroContent img {
+    height: 376px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .bannerText p {
+    font-size: 16px;
+    padding: 18px 0;
+  }
+  .bannerBtnArea a {
+    padding: 11px 45px;
+  }
+  .btnStyle {
+    font-size: 14px;
+  }
+  .bannerMain {
+    padding-bottom: 178px;
+  }
+  .bannerMain {
+    padding-top: 105px;
+  }
+  .footerMainTextArea,
+  .officeText,
+  .singleServices,
+  .servicestimeText,
+  .sliderTextArea,
+  .bannerText,
+  .header {
+    max-width: 92%;
+    margin: auto;
+    width: 100%;
+  }
+  .footerText {
+    row-gap: 20px;
+  }
+  .footerCompany ul {
+    padding-top: 0px;
+  }
+}
+
+@media all and (max-width: 450px) {
+}
